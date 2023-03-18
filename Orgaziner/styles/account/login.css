@@ -1,0 +1,196 @@
+body {
+  height: 100px;
+  overflow: hidden;
+}
+
+#page-modified {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sign-up-button,
+.login-button {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: rgb(23, 35, 54);
+  background-color: rgb(164, 180, 207);
+  border-color: rgb(164, 180, 207);
+  border-width: 2px;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+
+.sign-up-button {
+  background-image: linear-gradient(
+    60deg,
+    rgb(118, 166, 250),
+    rgb(155, 121, 247),
+    rgb(118, 166, 250),
+    rgb(155, 121, 247)
+  );
+  background-size: 300%;
+  border: none;
+
+  transition: transform 0.25s;
+  animation: gradient-infinite 10s linear infinite;
+}
+
+.login-button {
+  background-color: rgb(23, 35, 54);
+  color: rgb(164, 180, 207);
+  border-color: rgb(164, 180, 207);
+  border-width: 2.5px;
+}
+
+.login-account-button:hover,
+.sign-up-button:hover {
+  transform: scale(105%);
+}
+
+.login-button:hover {
+  color: rgb(23, 35, 54);
+  background-color: rgb(164, 180, 207);
+  border-color: rgb(164, 180, 207);
+}
+
+.top-bar-button {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#arrow-background1 {
+  position: absolute;
+  display: inline;
+  width: 350px;
+  bottom: -100px;
+  left: -100px;
+}
+
+#arrow-background2 {
+  position: absolute;
+  display: inline;
+  width: 350px;
+  top: -100px;
+  right: -100px;
+}
+
+.content {
+  height: 500px;
+  width: 30%;
+  position: relative;
+  top: 150px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 35px;
+  text-align: left;
+
+  background-image: linear-gradient(
+    45deg,
+    rgb(23, 35, 54),
+    rgb(0, 38, 77),
+    rgb(23, 35, 54),
+    rgb(0, 39, 77),
+    rgb(23, 35, 54),
+    rgb(0, 38, 77)
+  );
+  background-size: 800%;
+  border-radius: 15px;
+  padding: 0;
+  border: solid;
+  border-color: rgb(30, 49, 82);
+  box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, 0.174);
+
+  animation: gradient-infinite 30s ease-in-out infinite;
+}
+
+.logo-icon {
+  margin-top: 35px;
+  margin-bottom: 5px;
+  width: 75px;
+}
+
+.content-title {
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#login {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.input-title {
+  font-size: 16px;
+  margin: 0;
+  text-align: left;
+  align-self: flex-start;
+  margin-bottom: 5px;
+  padding-left: 25px;
+
+  transition: position 0.25s, transform 0.25s;
+}
+
+.input-field {
+  background-color: rgb(23, 35, 54);
+  border-radius: 15px;
+  padding: 0;
+  padding-left: 15px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  border: solid;
+  border-color: rgb(32, 43, 66);
+  color: rgb(164, 180, 207);
+  width: 85%;
+  height: 12%;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-family: "Lato";
+  outline: none;
+
+  transition: position 0.25s, transform 0.25s, box-shadow 0.25s;
+}
+
+.login-account-button {
+  width: 70%;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: linear-gradient(
+    60deg,
+    rgb(118, 166, 250),
+    rgb(155, 121, 247),
+    rgb(118, 166, 250),
+    rgb(155, 121, 247)
+  );
+  background-size: 300%;
+  border: none;
+
+  transition: transform 0.25s;
+  animation: gradient-infinite 10s linear infinite;
+}
+
+#login-link {
+  font-size: 16px;
+  color: rgb(164, 180, 207);
+  font-weight: normal;
+  margin-bottom: 5px;
+}

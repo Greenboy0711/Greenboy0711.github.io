@@ -1,0 +1,54 @@
+body {
+  margin-left: 115px;
+  position: relative;
+}
+
+#page-modified {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.welcome-section {
+  width: 100%;
+}
+
+.title-accent2,
+.title-accent1 {
+  background-image: linear-gradient(
+    60deg,
+    rgb(118, 166, 250),
+    rgb(155, 121, 247),
+    rgb(118, 166, 250),
+    rgb(155, 121, 247)
+  );
+  background-size: 300%;
+  animation: gradient-infinite 10s linear infinite;
+}
+
+.welcome-text {
+  font-size: 50px;
+  margin: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 75%;
+}
+
+.time-text {
+  color: rgb(164, 180, 207);
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.widgets-section {
+  margin-top: 25px;
+}
+
+.widget {
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  color: rgb(164, 180, 207);
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
